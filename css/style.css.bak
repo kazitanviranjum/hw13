@@ -1,0 +1,209 @@
+/* Common css start */
+*{
+    padding: 0;
+    margin: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+.font{
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+
+/* //common css end */
+
+#header .menubar{
+    top: 0;
+   
+}
+
+/* Menubar section start */
+.menubar{
+    width: 59%;
+    padding-top: 55px;
+    padding-left: 85px;
+}
+
+#header .menubar nav{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+#header .menubar .logo{
+    width: 120px;
+}
+
+#header .menubar .logo img{
+    display: block;   
+}
+
+#header .menubar .menu{
+    width: 500px;
+    
+}
+
+#header nav .menu ul li {
+    display: inline-block;
+ 
+}
+
+#header nav .menu ul li a{
+    display: inline-block;
+    font-size: 24px;
+    color: #303030;
+    font-weight: 500;
+    padding: 8px 10px;
+    
+
+}
+#header nav .menu ul li a:hover{
+	transform:scale(1.1);
+	color:#FA6C0E;
+	
+}
+
+.parcel{
+    padding-top: 141px;
+}
+
+.parcel .parcel_child {
+    width: 337px;
+    background-color: #FFB800;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.parcel .parcel_child  p{
+   display: inline-block;
+   width: 25%;
+   padding: 14px 63px;
+   font-weight: bold;
+   background-color:#E5E5E5;
+   
+}
+.parcel .parcel_child  p:nth-child(1){
+    color: #fff;
+}
+
+.text #one{
+	
+    font-size: 72px;
+    padding-top: 51px;
+	padding-right:254px;
+	
+    font-weight: bold;
+	color: #1F1F1F;
+	font-family: 'Roboto Condensed', sans-serif;
+	
+}
+
+.text div p:nth-child(2){
+    font-size: 19px;
+    font-weight: 100;
+    padding-top: 38px;
+	padding-right:265px;
+    color: #303030;
+	font-family: 'Roboto', sans-serif;
+}
+
+.book{
+    padding-top: 40px;
+    
+   
+}
+
+.book .test{
+    background-color: #FFB800;
+    width: 219px;
+   
+}
+
+.book input[type="submit"]{
+	border:0;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 19px 27px;
+    color: #FFFFFF;
+	background-color: #FFB800;
+	cursor:pointer;
+	border-radius: 10px;
+	
+
+}
+
+.footer{
+    padding-top: 219px;
+    padding-left: 124px;
+    padding-bottom: 47px;
+    display: flex;
+    flex-wrap: wrap;
+	
+   
+}
+
+.footer img{
+	margin:16px 0 0 0;
+    display: block;
+    width: 50px;
+	height:50px;
+}
+
+.footer .p{
+    font-family: 'Risque', sans-serif;
+    
+}
+
+
+
+.footer p{
+    display: inline-block;
+    font-size: 64px;
+
+}
+
+/* Menubar section end */
+
+
+
+
+/* banner section start */
+
+
+body{
+    position: relative;
+  
+}
+
+
+#header  .container{
+   position: absolute;
+width: 779px;
+height: 981px;
+left: 796px;
+top: 21px;
+
+background: #FFC42A;
+border-radius: 50px;
+}
+
+.container{
+     position: relative; 
+}
+
+.container img{
+     position: absolute; 
+     left: 0;
+    top: 0; 
+    width: 100%;
+}
+/* //banner section end */
